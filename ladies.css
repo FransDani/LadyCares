@@ -1,120 +1,116 @@
 body {
-        background: url('Ladycat.png');
-        background-size: cover;
-        background-position: right;
-        height: 100vh;
+    background: url('Ladycat.png');
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    margin: 0; /* Reset default margin */
 }
 
 main {
-        background-color: rgb(0,0,0);
-        width: 500%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20px;
-        max-width: 500px;
-        height: auto;
+    background-color: rgb(0,0,0);
+    width: 90%; /* Adjust width as a percentage */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    max-width: 800px; /* Set a max-width */
+    height: auto;
 }
 
 h1 {
-        color: white;
-        text-align: center;
-        font-family: courier new;
-        font-weight: bold
-
+    color: white;
+    text-align: center;
+    font-family: courier new;
+    font-weight: bold;
 }
-hr{
-        color: pink;
+
+hr {
+    color: pink;
 }
 
 .texts {
-        color: white;
-        font-family: courier new;
-        text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
+    color: white;
+    font-family: courier new;
+    text-align: center;
+    margin: 10px; /* Use shorthand for margin */
 }
+
 a {
-        color: pink;
+    color: pink;
 }
 
 a:visited {
-        color: pink;
+    color: pink;
 }
 
-a:hover {
-        color: red;
-}
-
+a:hover,
 a:active {
-        color: red;
+    color: red;
 }
 
 h3 {
-        color: white;
-        font-family: courier new;
-        text-align: left;
-        margin-left: 1px;
-        font-size:20px;
+    color: white;
+    font-family: courier new;
+    text-align: left;
+    margin-left: 10px; /* Adjust margin for consistency */
+    font-size: 1.5em; /* Relative font size */
 }
 
 .lists {
-        color: rgb(255,190,193);
-        font-family: courier new;
-        text-align: left;
-        margin-left: 20px;
-        margin-right: 10px;
+    color: rgb(255,190,193);
+    font-family: courier new;
+    text-align: left;
+    margin: 0 20px; /* Adjust margin for consistency */
 }
 
-.btradio{
-        color: rgb(255, 255, 255);
-        font-family: courier new;
-        text-align: center;
+.btradio {
+    color: rgb(255, 255, 255);
+    font-family: courier new;
+    text-align: center;
 }
 
-.dyou{
-        margin-top: 5px;
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 10px;
+.dyou {
+    margin-top: 5px;
+    font-size: 1.2em; /* Relative font size */
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.ansY{
-        text-align: center-left;
-        font-size: 25px;
-        font-weight: bold;
-}
-
-.ansN{
-        text-align: center-right;
-        font-size: 25px;
-        font-weight: bold;
+.ansY,
+.ansN {
+    font-size: 1.5em; /* Relative font size */
+    font-weight: bold;
 }
 
 .Comments {
-        color: white;
-        font-size: 15px;
-        font-style: italic;
-        font-family: courier new;
-        text-align: center;
-        margin: 20px;
+    color: white;
+    font-size: 1em; /* Relative font size */
+    font-style: italic;
+    font-family: courier new;
+    text-align: center;
+    margin: 20px;
 }
 
 .Tarea {
-        color: rgb(0,0,0);
-        text-align: auto;
-        margin-top: 10px;
-        position: auto;
-        margin-bottom: 10px;
+    color: rgb(0,0,0);
+    text-align: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sub {
-        margin-top; 20px;
-        background-color: white;
-        font-family: courier new;
-        font-weight: bold;
+    margin-top: 20px;
+    background-color: white;
+    font-family: courier new;
+    font-weight: bold;
 }
 
 .space {
-        Margin-top: 20px;
-        Margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    main {
+        width: 95%; /* Adjust width for smaller screens */
+    }
 }
