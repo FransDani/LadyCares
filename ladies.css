@@ -94,6 +94,12 @@ h3 {
     text-align: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%; /* Make the textarea width 100% of its container */
+    max-width: 100%; /* Ensure the textarea does not exceed the width of its container */
+    resize: vertical; /* Allow vertical resizing */
+    padding: 10px; /* Add padding for better readability */
+    box-sizing: border-box; /* Include padding and border in the textarea's total width */
+}
 }
 
 .sub {
@@ -108,8 +114,12 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* Media Queries for Responsive Design */
+/* Adjust textarea styles for smaller screens */
 @media screen and (max-width: 768px) {
+    .Tarea {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+}
     main {
         width: 95%; /* Adjust width for smaller screens */
     }
